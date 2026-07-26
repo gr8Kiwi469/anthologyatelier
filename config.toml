@@ -1,4 +1,102 @@
+# ---------------------------------------------------------
+# AnthologyAtelier — Hugo + PaperMod Configuration
+# ---------------------------------------------------------
+
+baseURL = "https://anthologyatelier.com/"
+title = "Anthology Atelier"
+subtitle = "A curated gateway to ideas, systems, and creative intelligence."
 theme = "PaperMod"
-baseURL = 'https://anthologyatelier.com/'
-locale = 'en-us'
-title = 'Anthology Atelier'
+languageCode = "en-us"
+paginate = 10
+
+canonifyURLs = true
+
+# ---------------------------------------------------------
+# PaperMod Core Parameters
+# ---------------------------------------------------------
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButton = true
+  ShowToc = false
+
+  # Homepage hero block
+  homeInfoParams = {
+    Title = "Anthology Atelier",
+    Content = """
+A parent studio connecting the Anthology4Tech knowledge platform with the Atelier4Ideas creative lab — unified under a single brand architecture.
+
+**Explore the ecosystem:**
+- [Anthology4Tech](/anthology4tech/)
+- [Atelier4Ideas](/atelier4ideas/)
+- [About](/about/)
+"""
+  }
+
+  # Author block (optional)
+  [params.author]
+    name = "Keith"
+
+# ---------------------------------------------------------
+# Social Icons
+# ---------------------------------------------------------
+[params.social]
+  github = "gr8Kiwi469"
+  linkedin = "your-profile"
+  email = "your@email.com"
+
+# ---------------------------------------------------------
+# Menu Configuration
+# ---------------------------------------------------------
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Anthology4Tech"
+    url = "/anthology4tech/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Atelier4Ideas"
+    url = "/atelier4ideas/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+# ---------------------------------------------------------
+# Taxonomies
+# ---------------------------------------------------------
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# ---------------------------------------------------------
+# Markdown Rendering
+# ---------------------------------------------------------
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# ---------------------------------------------------------
+# RSS + JSON
+# ---------------------------------------------------------
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

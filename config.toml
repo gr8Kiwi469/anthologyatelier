@@ -28,18 +28,6 @@ canonifyURLs = true
   ShowToc = false
 
   # Homepage hero block
-#  homeInfoParams = {
-#    Title = "Anthology Atelier",
-#    Content = """
-#A parent studio connecting the Anthology4Tech knowledge platform with the Atelier4Ideas creative lab — unified under a single brand architecture.
-#
-#**Explore the ecosystem:**
-#- [Anthology4Tech](/anthology4tech/)
-#- [Atelier4Ideas](/atelier4ideas/)
-#- [About](/about/)
-#"""
-#  }
-
 [params.homeInfoParams]
 Title = "Anthology Atelier"
 Content = """

@@ -18,6 +18,8 @@ canonifyURLs = true
   defaultTheme = "auto"
   disableThemeToggle = false
 
+  canonifyURLs = true
+
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
@@ -62,9 +64,9 @@ A parent studio connecting the Anthology4Tech knowledge platform with the Atelie
     weight = 1
 
   [[menu.main]]
-    name = "Anthology4Tech"
-    url = "/anthology4tech/"
-    weight = 2
+    name = "Analogy4Tech"
+    url = "https://analogy4tech.com/"
+    weight = 20
 
   [[menu.main]]
     name = "Atelier4Ideas"

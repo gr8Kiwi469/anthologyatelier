@@ -17,10 +17,11 @@ canonifyURLs = true
 [params]
   defaultTheme = "auto"
   disableThemeToggle = false
+#  disableFingerprinting = false
 
   canonifyURLs = true
 
-  assets = ["css/custom.css"]
+#  assets = ["css/custom.css"]
 
   ShowReadingTime = false
   ShowShareButtons = false
@@ -30,6 +31,10 @@ canonifyURLs = true
   ShowWordCount = false
   ShowRssButton = true
   ShowToc = false
+
+[params.assets]
+disableFingerprinting = false
+customCSS = ["css/custom.css"]
 
   # Homepage hero block
 [params.homeInfoParams]

@@ -1,0 +1,54 @@
+/* ===========================
+   BRAND COLORS — ATELIER
+   =========================== */
+.atelier-gradient {
+  background: linear-gradient(135deg, #1C1C1C 0%, #FF7E5F 40%, #F5A623 100%);
+}
+
+.atelier-glow {
+  background: radial-gradient(circle at top left, rgba(255,184,140,0.35), transparent 60%);
+}
+
+
+/* ===========================
+   BRAND COLORS — TECH
+   =========================== */
+.tech-gradient {
+  background: linear-gradient(135deg, #0F1115 0%, #4A90E2 40%, #50E3C2 100%);
+}
+
+.tech-glow {
+  background: radial-gradient(circle at top right, rgba(107,230,255,0.35), transparent 60%);
+}
+
+
+/* ===========================
+   HERO BASE STYLING
+   =========================== */
+.hero {
+  padding: 6rem 2rem;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  opacity: 0.85;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  text-decoration: none;
+  backdrop-filter: blur(6px);
+}

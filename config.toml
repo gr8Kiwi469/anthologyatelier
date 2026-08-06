@@ -20,6 +20,8 @@ canonifyURLs = true
 
   canonifyURLs = true
 
+  assets = ["css/custom.css"]
+
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
@@ -38,7 +40,7 @@ A parent studio connecting the Anthology4Tech knowledge platform with the Atelie
 **Explore the ecosystem:**
 - [Anthology4Tech](/anthology4tech/)
 #- [Atelier4Ideas](/atelier4ideas/)
-- [Atelier4Ideas](https:///atelier4ideas/)
+- [Atelier4Ideas](https://atelier4ideas/)
 - [About](/about/)
 """
 

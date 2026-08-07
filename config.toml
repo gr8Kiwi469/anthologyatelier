@@ -8,18 +8,17 @@ subtitle = "A curated gateway to ideas, systems, and creative intelligence."
 theme = "PaperMod"
 languageCode = "en-us"
 paginate = 10
-
 canonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
 
 # ---------------------------------------------------------
 # PaperMod Core Parameters
 # ---------------------------------------------------------
 [params]
-  defaultTheme = "auto"
+#  defaultTheme = "auto"
+  defaultTheme = "light"
   disableThemeToggle = false
-#  disableFingerprinting = false
-
-  canonifyURLs = true
 
   customCSS = ["css/brand.css"]
 
@@ -35,14 +34,14 @@ canonifyURLs = true
   ShowToc = false
 
 [params.assets]
-disableFingerprinting = false
-customCSS = ["css/custom.css"]
+  disableFingerprinting = false
+  customCSS = ["css/custom.css"]
 
-  # Homepage hero block
+# Homepage hero block
 [params.homeInfoParams]
-Title = "Anthology Atelier"
-Content = """
-A parent studio connecting the Anthology4Tech knowledge platform with the Atelier4Ideas creative lab — unified under a single brand architecture.
+  Title = "Anthology Atelier"
+  Content = """
+  A parent studio connecting the Anthology4Tech knowledge platform with the Atelier4Ideas creative lab — unified under a single brand architecture.
 
 **Explore the ecosystem:**
 - [Anthology4Tech](/anthology4tech/)
@@ -51,17 +50,17 @@ A parent studio connecting the Anthology4Tech knowledge platform with the Atelie
 - [About](/about/)
 """
 
-  # Author block (optional)
-  [params.author]
-    name = "Keith"
+# Author block (optional)
+[params.author]
+  name = "Keith"
 
 # ---------------------------------------------------------
 # Social Icons
 # ---------------------------------------------------------
 [params.social]
   github = "gr8Kiwi469"
-  linkedin = "your-profile"
-  email = "your@email.com"
+  linkedin = "https://www.linkedin.com/in/keithdenham"
+  email = "admin@anthologyatelier.com"
 
 # ---------------------------------------------------------
 # Menu Configuration
@@ -79,10 +78,10 @@ A parent studio connecting the Anthology4Tech knowledge platform with the Atelie
 #    weight = 20
     weight = 2
 
-#  [[menu.main]]
-#    name = "Atelier4Ideas"
-#    url = "/atelier4ideas/"
-#    weight = 3
+  [[menu.main]]
+    name = "Atelier4Ideas"
+    url = "/atelier4ideas/"
+    weight = 3
 
   [[menu.main]]
     name = "About"

@@ -21,6 +21,8 @@ canonifyURLs = true
 
   canonifyURLs = true
 
+  customCSS = ["css/brand.css"]
+
 #  assets = ["css/custom.css"]
 
   ShowReadingTime = false

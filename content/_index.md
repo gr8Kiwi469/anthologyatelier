@@ -14,15 +14,29 @@ layout: "home"
 
 
 
-<section class="hero">
+<section class="hero hero-atelier">
 
 &#x20; <h1>Curated Intelligence, Crafted for Clarity</h1>
 
 &#x20; <p>Insights, previews, and upcoming releases from the Anthology Atelier ecosystem.</p>
 
+&#x20; <div class="hero-underline"></div>
+
 &#x20; <a class="cta" href="/anthology4tech">Explore Anthology4Tech</a>
 
 </section>
+
+
+
+\#<section class="hero">
+
+\#  <h1>Curated Intelligence, Crafted for Clarity</h1>
+
+\#  <p>Insights, previews, and upcoming releases from the Anthology Atelier ecosystem.</p>
+
+\#  <a class="cta" href="/anthology4tech">Explore Anthology4Tech</a>
+
+\#</section>
 
 
 

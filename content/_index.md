@@ -1,10 +1,4 @@
-## Set-Content -Path content\_index.md -Value @"
-
-## title: "Anthology Atelier"
-
-"@
-
----
+\---
 
 title: "Anthology Atelier"
 
@@ -28,21 +22,9 @@ layout: "home"
 
 
 
-\#<section class="hero">
-
-\#  <h1>Curated Intelligence, Crafted for Clarity</h1>
-
-\#  <p>Insights, previews, and upcoming releases from the Anthology Atelier ecosystem.</p>
-
-\#  <a class="cta" href="/anthology4tech">Explore Anthology4Tech</a>
-
-\#</section>
-
-
-
 <section class="promos">
 
-&#x20; <h2>Featured Promos</h2>
+&#x20; <h2 class="section-header-atelier">Featured Promos</h2>
 
 &#x20; <div class="promo-list">
 
@@ -86,25 +68,9 @@ layout: "home"
 
 
 
-<section class="about">
-
-&#x20; <h2>About the Ecosystem</h2>
-
-&#x20; <p>
-
-&#x20;   Anthology Atelier is the curated gateway into a growing library of structured, practical insight.
-
-&#x20;   Explore previews, follow upcoming drops, and discover the work happening across the Anthology4Tech platform.
-
-&#x20; </p>
-
-</section>
-
-
-
 <section class="drops">
 
-&#x20; <h2>Upcoming Drops</h2>
+&#x20; <h2 class="section-header-atelier">Upcoming Drops</h2>
 
 &#x20; <ul>
 
@@ -124,7 +90,7 @@ layout: "home"
 
 <section class="blog">
 
-&#x20; <h2>Latest Posts</h2>
+&#x20; <h2 class="section-header-atelier">Latest Posts</h2>
 
 &#x20; {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
 
@@ -139,6 +105,14 @@ layout: "home"
 &#x20; {{ end }}
 
 </section>
+
+
+
+<footer class="footer-atelier">
+
+&#x20; © 2026 Anthology Atelier · Crafted Clarity
+
+</footer>
 
 
 

@@ -5,4 +5,19 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url>
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/anthology4tech/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/atelier4ideas/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/promo/systems-thinking-preview/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/promo/</loc>
+  </url>
 </urlset>

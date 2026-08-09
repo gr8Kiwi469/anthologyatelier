@@ -18,6 +18,9 @@
     <loc>http://localhost:1313/promo/systems-thinking-preview/</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/promo/workflows-preview/</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/promo/</loc>
   </url>
 </urlset>

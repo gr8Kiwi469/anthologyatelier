@@ -1,6 +1,73 @@
-#baseURL = 'https://example.org/'
-baseURL = 'https://anthologyatelier.com/'
-locale = 'en-us'
-title = 'New Anthology Atelier'
+baseURL = "https://anthologyatelier.com/"
+title = "Anthology Atelier"
+languageCode = "en-us"
+paginate = 10
+canonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
 theme = "blowfish"
 
+# ---------------------------------------------------------
+# Blowfish Parameters
+# ---------------------------------------------------------
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = false
+
+[params.assets]
+  customCSS = ["css/brand.css"]
+
+# Social links (Blowfish format)
+[params.social]
+  github = "https://github.com/gr8Kiwi469"
+  linkedin = "https://www.linkedin.com/in/keithdenham"
+  email = "admin@anthologyatelier.com"
+
+# ---------------------------------------------------------
+# Menu Configuration
+# ---------------------------------------------------------
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Anthology4Tech"
+    url = "https://anthology4tech.com/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Atelier4Ideas"
+    url = "/atelier4ideas/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+# ---------------------------------------------------------
+# Taxonomies
+# ---------------------------------------------------------
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# ---------------------------------------------------------
+# Markdown Rendering
+# ---------------------------------------------------------
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# ---------------------------------------------------------
+# RSS + JSON
+# ---------------------------------------------------------
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

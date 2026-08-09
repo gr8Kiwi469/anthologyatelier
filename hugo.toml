@@ -1,0 +1,6 @@
+#baseURL = 'https://example.org/'
+baseURL = 'https://anthologyatelier.com/'
+locale = 'en-us'
+title = 'New Anthology Atelier'
+theme = "blowfish"
+

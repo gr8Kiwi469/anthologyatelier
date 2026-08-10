@@ -10,6 +10,26 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Aim &amp; Intent</title>
+      <link>http://localhost:1313/anthology4tech/aim-intent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/anthology4tech/aim-intent/</guid>
+      <description>The guiding purpose, value, and direction of the Anthology4Tech knowledge platform.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/_index-pmod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/_index-pmod/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;title: &amp;ldquo;Anthology Atelier&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;layout: &amp;ldquo;home&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;section class=&#34;hero hero-atelier&#34;&gt;&#xD;&#xA;&lt;p&gt;  &lt;h1&gt;Curated Intelligence, Crafted for Clarity&lt;/h1&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;p&gt;Insights, previews, and upcoming releases from the Anthology Atelier ecosystem.&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;div class=&#34;hero-underline&#34;&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;a class=&#34;cta&#34; href=&#34;http://localhost:1313/anthology4tech&#34;&gt;Explore Anthology4Tech&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;section class=&#34;promos&#34;&gt;&#xD;&#xA;&lt;p&gt;  &lt;h2 class=&#34;section-header-atelier&#34;&gt;Featured Promos&lt;/h2&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;div class=&#34;promo-list&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;article&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;h3&gt;The Architecture of Modern Workflows&lt;/h3&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;p&gt;A preview of the upcoming release exploring how systems shape productivity.&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;a href=&#34;http://localhost:1313/promo/workflows&#34;&gt;Read Preview&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;/article&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;article&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;h3&gt;Why Systems Thinking Still Wins&lt;/h3&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;p&gt;An editorial insight into the frameworks behind effective decision-making.&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;a href=&#34;http://localhost:1313/promo/systems-thinking&#34;&gt;Read Preview&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;/article&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;article&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;h3&gt;How Articles Are Crafted&lt;/h3&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;p&gt;A behind-the-scenes look at the Anthology creation process.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Anthology4Tech</title>
       <link>http://localhost:1313/promo/systems-thinking-preview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

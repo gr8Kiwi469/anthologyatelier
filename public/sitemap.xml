@@ -6,7 +6,7 @@
     <loc>http://localhost:1313/anthology4tech/aim-intent/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/_index-pmod/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/about/</loc>
@@ -16,6 +16,9 @@
   </url>
   <url>
     <loc>http://localhost:1313/atelier4ideas/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/promo/systems-thinking-preview/</loc>

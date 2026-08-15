@@ -35,11 +35,11 @@ theme = "blowfish"
 
   [[menu.main]]
     name = "Anthology4Tech"
-    url = "https://anthology4tech.com/"
+    url = "https://www.anthology4tech.com/"
     weight = 2
 
   [[menu.main]]
-    name = "Atelier4Ideas"
+    name = "Atelier4Ideas - Construction Zone"
     url = "/atelier4ideas/"
     weight = 3
 

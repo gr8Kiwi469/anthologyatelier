@@ -35,7 +35,8 @@ theme = "blowfish"
 
   [[menu.main]]
     name = "Anthology4Tech"
-    url = "https://anthology4tech.com/"
+#    url = "https://anthology4tech.com/"
+    url = "https://anthology4tech.pages.dev"
     weight = 2
 
   [[menu.main]]

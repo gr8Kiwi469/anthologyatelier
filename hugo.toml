@@ -44,10 +44,15 @@ theme = "blowfish"
     url = "/atelier4ideas/"
     weight = 3
 
+  [[main]]
+    name   = "ALM Mag"
+    url    = "/alm-mag/"
+    weight = 40
+
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 5
 
 # ---------------------------------------------------------
 # Taxonomies

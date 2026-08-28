@@ -27,7 +27,13 @@
     <loc>http://localhost:1313/promo/workflows-preview/</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/attribution/</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/disclaimer/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/privacy/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/promo/</loc>

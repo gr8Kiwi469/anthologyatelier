@@ -1,5 +1,12 @@
 <footer id="site-footer" class="py-10 print:hidden">
 
+  {{/* Micro Disclaimer */}}
+  <p class="text-sm text-neutral-500 dark:text-neutral-400">
+    Anthology Atelier curates collections of publicly shared technology content.
+    Attribution, ownership, and accuracy are governed by the disclaimers on each sub‑site.
+    <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/disclaimer/">See full Disclaimer.</a>
+  </p>
+
   {{/* Footer menu */}}
   {{ if .Site.Params.footer.showMenu | default true }}
     {{ if .Site.Menus.footer }}
@@ -32,14 +39,7 @@
       </nav>
     {{ end }}
   {{ end }}
-
-  {{/* Micro Disclaimer */}}
-  <p class="text-sm text-neutral-500 dark:text-neutral-400">
-    Anthology Atelier curates collections of publicly shared technology content.
-    Attribution, ownership, and accuracy are governed by the disclaimers on each sub‑site.
-    <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/disclaimer/">See full Disclaimer.</a>
-  </p>
-
+  
   <div class="legal-links grid grid-cols-2 gap-2 md:gap-10 text-sm text-neutral-500 dark:text-neutral-400 mb-4">
 
     <div>

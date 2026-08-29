@@ -41,16 +41,26 @@
     <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/disclaimer/">See full Disclaimer.</a>
   </p>
   <div class="flex items-center justify-between">
-  <div class="legal-links text-sm text-neutral-500 dark:text-neutral-400 mb-4">
-    <strong>Legal</strong>
-    <ul class="list-none mt-2 space-y-1">
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/disclaimer/">Disclaimer</a></li>
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/privacy/">Privacy Notice</a></li>
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/attribution/">Attribution</a></li>
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/how-it-works/">How Anthology Works</a></li>
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/contact/">Contact the Curator</a></li>
-      <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/promo/">Promo / Introduction</a></li>
-    </ul>
+  <div class="legal-links grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-neutral-500 dark:text-neutral-400 mb-4">
+
+    <div>
+      <strong>Legal</strong>
+      <ul class="list-none mt-2 space-y-1">
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/disclaimer/">Disclaimer</a></li>
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/privacy/">Privacy Notice</a></li>
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/attribution/">Attribution</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Explore</strong>
+      <ul class="list-none mt-2 space-y-1">
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/how-it-works/">How Anthology Works</a></li>
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/contact/">Contact the Curator</a></li>
+        <li><a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/promo/">Promo / Introduction</a></li>
+      </ul>
+    </div>
+
   </div>
 
     {{/* Copyright */}}
@@ -88,10 +98,10 @@
       });
     </script>
   {{ end }}
-  {{/* Extend footer - eg. for extra scripts, etc. */}}
-  <p class="copyright">
-    © {{ now.Year }} Anthology Atelier — Powered by Hugo & Blowfish
-  </p>
+##  {{/* Extend footer - eg. for extra scripts, etc. */}}
+##  <p class="copyright">
+##    © {{ now.Year }} Anthology Atelier — Powered by Hugo & Blowfish
+##  </p>
 </footer>
 
   {{ if templates.Exists "partials/extend-footer.html" }}

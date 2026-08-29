@@ -8,8 +8,9 @@ hero:
   subtitle: "A curated, continuously updated archive of technology insights."
 ---
 
-Anthology4Tech brings together high‑value technology posts originally shared on LinkedIn.  
-Our goal is simple: **preserve the best content and make it easy to find again.**
+Anthology4Tech is the technology-focused pillar of the Anthology ecosystem — a curated archive of high‑value posts originally shared on LinkedIn by industry presenters.
+
+Our mission is simple: **preserve the best content and make it easy to find again.**
 
 ## Why Anthology4Tech Matters
 - LinkedIn posts disappear quickly  
@@ -17,8 +18,7 @@ Our goal is simple: **preserve the best content and make it easy to find again.*
 - Professionals need a reliable archive  
 - Subscribers gain access to curated collections  
 
-## Subscription Model (Coming Soon)
-Anthology4Tech will offer:
+## What Subscribers Will Receive
 - Monthly curated drops  
 - Topic‑based collections  
 - Full access to the article index  
@@ -33,3 +33,4 @@ Your subscription helps maintain:
 
 ## Learn More
 Visit the full site: [Anthology4Tech](https://anthology4tech.com)
+

@@ -9,9 +9,6 @@
     <loc>http://localhost:1313/_index-pmod/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/about/</loc>
   </url>
   <url>
@@ -19,6 +16,9 @@
   </url>
   <url>
     <loc>http://localhost:1313/atelier4ideas/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/promo/systems-thinking-preview/</loc>
@@ -34,6 +34,9 @@
   </url>
   <url>
     <loc>http://localhost:1313/disclaimer/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/how-it-works/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/promo/</loc>

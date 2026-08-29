@@ -5,7 +5,7 @@ paginate = 10
 canonifyURLs = true
 enableRobotsTXT = true
 enableEmoji = true
-theme = "blowfish"
+theme = "blowfish-2"
 
 # ---------------------------------------------------------
 # Blowfish Parameters

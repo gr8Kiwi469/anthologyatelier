@@ -1,12 +1,3 @@
----
-title: "Anthology Atelier"
-description: "A curated gateway to ideas, systems, and creative intelligence."
-hero:
-  title: "Anthology Atelier"
-  subtitle: "A curated gateway to ideas, systems, and creative intelligence."
-  cta:
-    label: "Explore the Ecosystem"
-    url: "/about/"
 sections:
   - type: featured
     title: "Featured"
@@ -24,4 +15,13 @@ sections:
       - title: "About"
         url: "/about/"
         image: "/img/cards/about.jpg"
----
+
+  - type: list
+    title: "Learn More"
+    items:
+      - title: "How Anthology Works"
+        url: "/how-it-works/"
+      - title: "Contact the Curator"
+        url: "/contact/"
+      - title: "Promo / Introduction"
+        url: "/promo/"

@@ -1,25 +1,60 @@
 {{ define "main" }}
 
-<div class="aa-hero">
-  <h1 class="aa-title">Anthology Atelier</h1>
-  <p class="aa-tagline">Ideas. Craft. Clarity.</p>
-</div>
+<section class="aa-hero" style="text-align:center; padding:4rem 1rem;">
+  <h1 style="font-size:3rem; font-weight:700; margin-bottom:1rem;">
+    Anthology Atelier
+  </h1>
 
-<div class="aa-sections">
-  <div class="aa-section-card">
-    <h2><a href="https://anthology4tech.com">Anthology4Tech</a></h2>
-    <p>Technical insights, modern workflows, and clean architecture.</p>
+  <p style="font-size:1.5rem; opacity:0.9; margin-bottom:3rem;">
+    Ideas. Craft. Clarity.
+  </p>
+
+  <div class="aa-subsites" style="max-width:900px; margin:0 auto; text-align:left;">
+    <h2 style="font-size:1.75rem; margin-bottom:0.5rem;">Anthology4Tech</h2>
+    <p style="margin-bottom:2rem;">
+      Technical insights, modern workflows, and clean architecture.
+    </p>
+
+    <h2 style="font-size:1.75rem; margin-bottom:0.5rem;">Atelier4Ideas</h2>
+    <p style="margin-bottom:2rem;">
+      Creative explorations, conceptual thinking, and narrative craft.
+    </p>
+
+    <h2 style="font-size:1.75rem; margin-bottom:0.5rem;">ALM Mag</h2>
+    <p style="margin-bottom:2rem;">
+      Long-form editorial, deep dives, and premium features.
+    </p>
+  </div>
+</section>
+
+<section class="aa-footer-info" style="max-width:900px; margin:4rem auto; padding:0 1rem; text-align:left;">
+  <p style="margin-bottom:2rem;">
+    Anthology Atelier curates collections of publicly shared technology content.
+    Attribution, ownership, and accuracy are governed by the disclaimers on each sub-site.
+    <a href="/disclaimer/">See full Disclaimer.</a>
+  </p>
+
+  <div class="aa-footer-columns" style="display:flex; gap:4rem; flex-wrap:wrap;">
+    <div>
+      <h3 style="margin-bottom:1rem;">Legal</h3>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="/disclaimer/">Disclaimer</a></li>
+        <li><a href="/privacy/">Privacy Notice</a></li>
+        <li><a href="/attribution/">Attribution</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 style="margin-bottom:1rem;">Explore</h3>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="/how-anthology-works/">How Anthology Works</a></li>
+        <li><a href="/contact/">Contact the Curator</a></li>
+        <li><a href="/promo/">Promo / Introduction</a></li>
+      </ul>
+    </div>
   </div>
 
-  <div class="aa-section-card">
-    <h2><a href="/atelier4ideas">Atelier4Ideas</a></h2>
-    <p>Creative explorations, conceptual thinking, and narrative craft.</p>
-  </div>
-
-  <div class="aa-section-card">
-    <h2><a href="/alm-mag">ALM Mag</a></h2>
-    <p>Long‑form editorial, deep dives, and premium features.</p>
-  </div>
-</div>
+  <p style="margin-top:2rem;">© 2026 Anthology Atelier</p>
+</section>
 
 {{ end }}

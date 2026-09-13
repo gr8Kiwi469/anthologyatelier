@@ -1,15 +1,17 @@
 {{ define "base" }}
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
-  {{ partial "head.html" . }}
-  <body>
-    {{ partial "header.html" . }}
+<html lang="{{ .Site.Language.Lang }}" class="no-js">
+  {{ partial "common/head.html" . }}
+  <body class="{{ partial "common/body-classes.html" . }}">
+    {{ partial "common/header.html" . }}
 
-    <main>
+    <main id="main">
       {{ block "main" . }}{{ end }}
     </main>
 
     {{ partial "footer.html" . }}
+
+    {{ partial "common/scripts.html" . }}
   </body>
 </html>
 {{ end }}

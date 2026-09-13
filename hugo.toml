@@ -77,14 +77,3 @@ theme = "blowfish"
 # ---------------------------------------------------------
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# ---------------------------------------------------------
-# Hugo Modules (ADD THIS BELOW)
-# ---------------------------------------------------------
-[module]
-  [[module.imports]]
-    path = "github.com/nunocoracao/blowfish"
-
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"

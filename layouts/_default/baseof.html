@@ -1,9 +1,15 @@
 {{ define "base" }}
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
-  {{ partial "common/head.html" . }}
-  <body class="{{ partial "common/body-classes.html" . }}">
-    {{ partial "common/header.html" . }}
+  {{ partial "head.html" . }}
+  <body class="{{ partial "body-classes.html" . }}">
+    {{ partial "header.html" . }}
+
+    {{ partial "blowfish/theme-switcher.html" . }}
+    {{ partial "blowfish/search-modal.html" . }}
+    {{ partial "blowfish/settings-modal.html" . }}
+    {{ partial "blowfish/mobile-menu.html" . }}
+    {{ partial "blowfish/layout-blocks.html" . }}
 
     <main id="main">
       {{ block "main" . }}{{ end }}
@@ -11,7 +17,7 @@
 
     {{ partial "footer.html" . }}
 
-    {{ partial "common/scripts.html" . }}
+    {{ partial "scripts.html" . }}
   </body>
 </html>
 {{ end }}

@@ -1,45 +1,32 @@
-/* assets/css/custom.css
-   Footer spacing override for Anthology4Tech (Blowfish)
-   Targeted, minimal rules to tighten disclaimer spacing.
-*/
+/* Tighten spacing for the micro disclaimer paragraph */
+footer#site-footer > p {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+  line-height: 1.25 !important;
+}
 
-/* Target Blowfish legal footer block (disclaimer lines) */
-.footer__legal-text p {
+/* Tighten spacing inside the Legal and Explore columns */
+footer#site-footer .legal-links ul li {
+  margin-top: 0.15rem !important;
+  margin-bottom: 0.15rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Reduce spacing between the Legal and Explore column titles and lists */
+footer#site-footer .legal-links strong {
+  margin-bottom: 0.15rem !important;
+  display: block !important;
+}
+
+/* Tighten spacing for the copyright line */
+footer#site-footer > p:last-of-type {
   margin-top: 0.25rem !important;
   margin-bottom: 0.25rem !important;
   line-height: 1.2 !important;
-  font-size: 0.95rem !important;
-  color: inherit !important;
 }
 
-.footer__legal-text p:first-of-type {
-  margin-bottom: 0.12rem !important;
-  line-height: 1.05 !important;
-  font-size: 0.88rem !important;
-  opacity: 0.92 !important;
-}
-
-/* Also target the general footer content block as a fallback */
-footer.footer .footer__content p {
-  margin-top: 0.25rem !important;
-  margin-bottom: 0.25rem !important;
-  line-height: 1.2 !important;
-  font-size: 0.95rem !important;
-}
-
-footer.footer .footer__content p:first-of-type {
-  margin-bottom: 0.12rem !important;
-  line-height: 1.05 !important;
-  font-size: 0.88rem !important;
-  opacity: 0.92 !important;
-}
-
-/* Small safeguard for very small screens */
-@media (max-width: 480px) {
-  .footer__legal-text p,
-  footer.footer .footer__content p {
-    margin-top: 0.2rem !important;
-    margin-bottom: 0.2rem !important;
-    font-size: 0.92rem !important;
-  }
+/* Optional: tighten spacing between footer sections overall */
+footer#site-footer {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }

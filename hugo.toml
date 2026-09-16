@@ -17,6 +17,10 @@ theme = "blowfish"
 [params.assets]
   customCSS = ["css/custom.css"]
 
+[params.footer]
+  showMenu = true
+  showCopyright = true
+
 # Social links (Blowfish format)
 [params.social]
   github = "https://github.com/gr8Kiwi469"

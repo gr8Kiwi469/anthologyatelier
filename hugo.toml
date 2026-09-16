@@ -15,7 +15,7 @@ theme = "blowfish"
   disableThemeToggle = false
 
 [params.assets]
-  customCSS = ["css/brand.css"]
+  customCSS = ["css/brand.css", "css/custom.css"]
 
 # Social links (Blowfish format)
 [params.social]
@@ -77,10 +77,3 @@ theme = "blowfish"
 # ---------------------------------------------------------
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# ---------------------------------------------------------
-# Hugo Modules (ADD THIS BELOW)
-# ---------------------------------------------------------
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
